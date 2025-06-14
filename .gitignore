@@ -1,8 +1,7 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 #
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-.utmp/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -10,18 +9,16 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-*.log
-
-# By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
-*.blend1
-*.blend1.meta
+/[Aa]ssets/Firebase/
+/[Aa]ssets/GeneratedLocalRepo/
+.utmp/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
-# Recordings can get excessive in size
-/[Rr]ecordings/
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -53,6 +50,7 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
@@ -65,8 +63,6 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
-*.unitypackage.meta
-*.app
 
 # Crashlytics generated file
 crashlytics-build.properties
@@ -78,8 +74,79 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Visual Scripting auto-generated files
-/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
-/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
-/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
-/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+# Ignore some files
+/remote_config_data
+/.idea
+Assets/Plugins/iOS/Firebase/libFirebaseCppApp.a
+Assets/Plugins/tvOS/Firebase/libFirebaseCppApp.a
+Assets/FR2_Cache.asset
+# Ignore ExternalDependencyManager
+Assets/ExternalDependencyManager/
+
+# Ignore TextMesh Pro font assets
+Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+
+# Ignore project settings
+ProjectSettings/ProjectSettings.asset
+Assets/AdvancedPlayerPrefsWindow.meta
+Assets/AdvancedPlayerPrefsWindow/DemoScene.meta
+Assets/AdvancedPlayerPrefsWindow/Editor.meta
+Assets/AdvancedPlayerPrefsWindow/Icons.meta
+Assets/AdvancedPlayerPrefsWindow/Readme.pdf
+Assets/AdvancedPlayerPrefsWindow/Readme.pdf.meta
+Assets/AdvancedPlayerPrefsWindow/DemoScene/GUIView.cs
+Assets/AdvancedPlayerPrefsWindow/DemoScene/GUIView.cs.meta
+Assets/AdvancedPlayerPrefsWindow/DemoScene/Main.unity
+Assets/AdvancedPlayerPrefsWindow/DemoScene/Main.unity.meta
+Assets/AdvancedPlayerPrefsWindow/DemoScene/MainSettings.lighting
+Assets/AdvancedPlayerPrefsWindow/DemoScene/MainSettings.lighting.meta
+Assets/AdvancedPlayerPrefsWindow/Editor/APPWindow.cs
+Assets/AdvancedPlayerPrefsWindow/Editor/APPWindow.cs.meta
+Assets/AdvancedPlayerPrefsWindow/Editor/Plist.cs
+Assets/AdvancedPlayerPrefsWindow/Editor/Plist.cs.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/add.png
+Assets/AdvancedPlayerPrefsWindow/Icons/add.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/delete.png
+Assets/AdvancedPlayerPrefsWindow/Icons/delete.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/loader.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/preferences.png
+Assets/AdvancedPlayerPrefsWindow/Icons/preferences.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/refresh.png
+Assets/AdvancedPlayerPrefsWindow/Icons/refresh.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/save.png
+Assets/AdvancedPlayerPrefsWindow/Icons/save.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/system.png
+Assets/AdvancedPlayerPrefsWindow/Icons/system.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/undo.png
+Assets/AdvancedPlayerPrefsWindow/Icons/undo.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/undo2.png
+Assets/AdvancedPlayerPrefsWindow/Icons/undo2.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/undo3.png
+Assets/AdvancedPlayerPrefsWindow/Icons/undo3.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/1.png
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/1.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/10.png
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/10.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/11.png
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/11.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/12.png
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/12.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/2.png
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/2.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/3.png
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/3.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/4.png
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/4.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/5.png
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/5.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/6.png
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/6.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/7.png
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/7.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/8.png
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/8.png.meta
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/9.png
+Assets/AdvancedPlayerPrefsWindow/Icons/loader/9.png.meta
+
+Assets/FR2_Cache.asset.meta
+ProjectSettings/Packages/com.unity.probuilder/Settings.json
