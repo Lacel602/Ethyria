@@ -1,0 +1,8 @@
+ribbon.png
+size:944,496
+filter:Linear,Linear
+pma:true
+ribbon_pink
+bounds:2,248,938,244
+ribbon_yellow
+bounds:2,2,938,244

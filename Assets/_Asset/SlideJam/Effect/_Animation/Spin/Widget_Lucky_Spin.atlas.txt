@@ -1,0 +1,12 @@
+Widget_Lucky_Spin.png
+size:271,271
+filter:Linear,Linear
+pma:true
+Group6
+bounds:2,78,191,191
+center
+bounds:2,2,74,74
+offsets:1,1,76,76
+direction
+bounds:195,194,55,75
+offsets:1,1,57,77

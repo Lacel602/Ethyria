@@ -1,0 +1,12 @@
+wand.png
+size:706,384
+filter:Linear,Linear
+Circle01
+bounds:587,176,86,86
+offsets:21,21,128,128
+Circle03
+bounds:587,265,116,116
+offsets:6,6,128,128
+wand
+bounds:3,3,378,581
+rotate:90

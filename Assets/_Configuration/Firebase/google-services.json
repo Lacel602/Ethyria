@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "206703810999",
+    "project_id": "ethyria-c6940",
+    "storage_bucket": "ethyria-c6940.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206703810999:android:35067a4ed6ec10a89fb032",
+        "android_client_info": {
+          "package_name": "com.game.ethyria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBqIkqE8_k91s9VnMlFxYjUd8lEGh_2es"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
